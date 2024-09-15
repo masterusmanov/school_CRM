@@ -7,7 +7,7 @@ import Sidebar from '../components/Sidebar/Sidebar.vue';
 <template>
   <div class="flex gap-5">
     <Sidebar/>
-    <main class="border w-full p-5">
+    <main class=" w-full p-5">
       <router-view></router-view>
     </main>
   </div>
